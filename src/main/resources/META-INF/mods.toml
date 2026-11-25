@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="resurrect"
+version="${mod_version}"
+displayName="Resurrect"
+description='''
+Adds a "Resurrect" button to the death screen. After a 15 second wait you can use it to
+regenerate on the spot - your body reassembles from the feet up as gore flows back in.
+'''
+
+[[dependencies.resurrect]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.resurrect]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
